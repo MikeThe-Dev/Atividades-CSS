@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.6 #CSS</title>
+
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5dc;
+            border: 2px solid red;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li img {
+            vertical-align: middle;
+            margin-right: 8px;
+            width: 55px;
+            height: 55px;
+        }
+
+        .nested-list {
+            margin-left: 30px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Lista de compras</h1>
+
+    <div class="container">
+        <ul>
+            <li><img src="https://pngimg.com/uploads/star/star_PNG41531.png" alt="Star"> Café
+                <ul class="nested-list">
+                    <li><img src="https://clipart-library.com/images_k/green-check-transparent/green-check-transparent-14.png" alt="Check"> Em pó</li>
+                    <li><img src="https://clipart-library.com/images_k/green-check-transparent/green-check-transparent-14.png" alt="Check"> Solúvel</li>
+                </ul>
+            </li>
+            <li><img src="https://pngimg.com/uploads/star/star_PNG41531.png" alt="Star"> Açúcar</li>
+            <li><img src="https://pngimg.com/uploads/star/star_PNG41531.png" alt="Star"> Arroz</li>
+            <li><img src="https://pngimg.com/uploads/star/star_PNG41531.png" alt="Star"> Leite</li>
+            <li><img src="https://pngimg.com/uploads/star/star_PNG41531.png" alt="Star"> Massa
+                <ul class="nested-list">
+                    <li><img src="https://clipart-library.com/images_k/green-check-transparent/green-check-transparent-14.png" alt="Check"> Spaguetti</li>
+                    <li><img src="https://clipart-library.com/images_k/green-check-transparent/green-check-transparent-14.png" alt="Check"> Tagliatelle</li>
+                    <li><img src="https://clipart-library.com/images_k/green-check-transparent/green-check-transparent-14.png" alt="Check"> Vermicelli</li>
+                    <li><img src="https://clipart-library.com/images_k/green-check-transparent/green-check-transparent-14.png" alt="Check"> Maccheron</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
